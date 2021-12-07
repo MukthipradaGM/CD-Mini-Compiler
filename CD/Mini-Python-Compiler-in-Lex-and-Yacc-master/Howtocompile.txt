@@ -1,0 +1,6 @@
+#TO install sudo apt install flex or sudo apt-get install flex
+#TO install sudo apt install bison or sudo apt-get install bison
+lex grammar.l
+yacc -dv grammar.y
+gcc lex.yy.c y.tab.c -g -ll -o TestICG.out
+./TestICG.out < Input2.txt
