@@ -20,3 +20,5 @@ Semantically we have checked the following :
 ● Whether any variable used on the RHS is defined and in the current scope or any Enclosing Scope of the current scope.
 ● Whether a variable being indexed is List
 ● Whether all expressions in the If and While Clauses are Boolean expressions
+
+This project was done by a team of 3 : Tejus, Manjunath and Myself
